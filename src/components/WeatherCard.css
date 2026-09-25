@@ -1,0 +1,73 @@
+.weather-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.weather-icon {
+  font-size: 40px;
+}
+
+.weather-temp {
+  font-size: 36px;
+  font-weight: 700;
+  color: #e1de28e0; 
+}
+
+.weather-condition {
+  font-size: 14px;
+  color: #6b6558;
+}
+
+.weather-range {
+  margin-top: -4px;
+  font-size: 14px;
+  color: #c9c3b6;
+}
+
+.weather-note {
+  font-size: 12px;
+  color: #9a9488;
+}
+
+.dust {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.dust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 6px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.dust-label {
+  font-size: 11px;
+  color: #9a9488;
+}
+
+.dust-grade {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f1ede4;
+}
+
+.dust-grade.good { color: #6cb4ff; }
+.dust-grade.normal { color: #7ed48a; }
+.dust-grade.bad { color: #ffab4a; }
+.dust-grade.very-bad { color: #ff6464; }
+
+.dust-value {
+  font-size: 12px;
+  color: #9a9488;
+}
