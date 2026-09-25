@@ -29,6 +29,7 @@ jobs:
         run: npm ci
       - name: Build
         env:
+          VITE_KMA_SERVICE_KEY: ${{ secrets.VITE_KMA_SERVICE_KEY }}
           VITE_UNSPLASH_ACCESS_KEY: ${{ secrets.VITE_UNSPLASH_ACCESS_KEY }}
         run: npm run build
       - name: Setup Pages
